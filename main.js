@@ -1,5 +1,5 @@
 angular
-    .module("frenchableApp", ['ngResource','ui.router']);
+    .module("frenchableApp", ['ui.router']);
 
 angular
     .module("frenchableApp")
