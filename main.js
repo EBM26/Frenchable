@@ -23,6 +23,16 @@ angular
             templateUrl: 'partial-about.html'
         })
 
+        .state('products', {
+            url: '/products',
+            templateUrl: 'partial-products.html'
+        })
+
+        .state('cart', {
+            url: '/cart',
+            templateUrl: 'partial-cart.html'
+        })
+
       });
   
 
