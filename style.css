@@ -30,3 +30,31 @@ font-style: normal;
 font-weight: normal;
 src: local('Merkin Goo'), url('MERKING_.woff') format('woff');
 }
+
+.navbar {
+  margin-right: 9%;
+  margin-left: 9%;
+}
+
+.bottomLogo {
+  height: 70px;
+  border-radius: 20%;
+  margin: 5px;
+}
+
+.breadCrumbs {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+a:link {
+  margin-right: 15%;
+
+}
+
+.iconBottom {
+  height: 25px;
+  margin-top: 8%;
+  margin-right: 8%;
+}
+
