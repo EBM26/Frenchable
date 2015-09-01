@@ -1,3 +1,32 @@
 .btn {
-  margin-top: 15%;
+  margin-top: 5%;
+}
+
+.logoText {
+  font-family: 'Merkin Goo';
+  color: #FF005A;
+}
+
+.FrenchLogo {
+  height: 70px;
+  margin-top: 7%;
+  border-radius: 20%;
+}
+
+.icon {
+  height: 25px;
+  margin-top: 18%;
+  margin-right: 5%;
+}
+
+.homeh4 {
+  font-family: 'Merkin Goo';
+  color: #41AAF1;
+}
+
+@font-face {
+font-family: 'Merkin Goo';
+font-style: normal;
+font-weight: normal;
+src: local('Merkin Goo'), url('MERKING_.woff') format('woff');
 }
