@@ -41,6 +41,7 @@ src: local('Youthanasia Italic'), url('YOUTHANI.woff') format('woff');
 .navbar {
   margin-right: 9%;
   margin-left: 9%;
+  margin-top: 5%;
 }
 
 .bottomLogo {
@@ -82,8 +83,23 @@ div.about .about{
   outline:none;
 }
 
+.SamplePic {
+  height: 300px;
+}
 
+hr {
+  height: 8px;
+  color: red;
+}
 
+.section {
+  margin: 20px 0px;
+  border-top: 1px solid #FF005A;
+  border-bottom: 1px solid #FF005A;
+  padding: 10px 0px;
+  color: #FF005A;
+}
 
-
-
+.sampleDiv {
+  color: #FF005A;
+}

@@ -41,9 +41,9 @@ angular
     .controller("frechableController", function ($scope) {
 
     $scope.pictures = [
-     {"name": "handbag1", "image": "images/FrenchHandbag.jpg", "price": "$99.99"},
-     {"name": "gloves1", "image": "images/FrenchGloves.jpg", "price": "$39.99"},
-     {"name": "hat1", "image": "images/FrenchHat.jpeg", "price": "$69.99"}
+     {"name": "Red Leather Bag", "image": "images/FrenchHandbag.jpg", "price": "$99.99"},
+     {"name": "Winter Gloves", "image": "images/FrenchGloves.jpg", "price": "$39.99"},
+     {"name": "French Red Hat", "image": "images/FrenchHat.jpeg", "price": "$69.99"}
 
     ]
   });
