@@ -68,6 +68,7 @@ a:link {
 
 .homeImage {
   width: 100%;
+  margin-top: 3%;
 }
 
 .welcome {
@@ -103,3 +104,28 @@ hr {
 .sampleDiv {
   color: #FF005A;
 }
+
+.productsDiv {
+  color: #FF005A;
+  margin: 5% 0%;
+}
+
+.productsPic {
+  height: 320px;
+  max-width: 300px;
+  border-radius: 20%;
+  border: 6px outset #FF005A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

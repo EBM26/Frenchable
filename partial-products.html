@@ -1,0 +1,25 @@
+<div class="container" ng-controller="frechableController">
+<div class="row">
+  
+
+  <div class="col-xs-4 productsDiv text-center" ng-repeat="hat in hats">
+      <img src="{{hat.image}}" alt="" class="productsPic">
+      <h4>{{hat.name}}</h4>
+      <h5>{{hat.price}}</h5>
+    </div>
+
+  <div class="col-xs-4 productsDiv text-center" ng-repeat="glove in gloves">
+      <img src="{{glove.image}}" alt="" class="productsPic">
+      <h4>{{glove.name}}</h4>
+      <h5>{{glove.price}}</h5>
+    </div>
+
+  <div class="col-xs-4 productsDiv text-center" ng-repeat="bag in bags">
+      <img src="{{bag.image}}" alt="" class="productsPic">
+      <h4>{{bag.name}}</h4>
+      <h5>{{bag.price}}</h5>
+    </div>
+
+
+</div>
+</div>
