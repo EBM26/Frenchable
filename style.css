@@ -107,7 +107,7 @@ hr {
 
 .productsDiv {
   color: #FF005A;
-  margin: 5% 0%;
+  margin: 3% 0%;
 }
 
 .productsPic {
@@ -117,7 +117,13 @@ hr {
   border: 6px outset #FF005A;
 }
 
+.productsTitle {
+  color: #FF005A;
+  font-family: 'Merkin Goo';
+  margin-top: 3%;
+  
 
+}
 
 
 
