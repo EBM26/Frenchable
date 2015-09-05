@@ -128,7 +128,12 @@ hr {
   margin-left: 8px;
 }
 
-
+.flag {
+  height: 17px;
+  border-radius: 20%;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
 
 
 
