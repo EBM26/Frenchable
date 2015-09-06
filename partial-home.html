@@ -11,8 +11,11 @@
       <!-- ng-repeat through sample array -->
 
     <div class="col-xs-4 sampleDiv text-center" ng-repeat="sample in samples">
+    <a ui-sref="products">
       <img src="{{sample.image}}" alt="" class="SamplePic">
+      </a>
       <h4>{{sample.name}}</h4>
+
     </div>
 
     
