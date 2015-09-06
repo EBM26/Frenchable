@@ -134,5 +134,10 @@ hr {
   margin-bottom: 4px;
 }
 
-
+.companyPhoto {
+  height: 300px;
+  margin: 20px 120px 10px 10px;
+  border: 6px outset #FF005A;
+  border-radius: 8%; 
+}
 
