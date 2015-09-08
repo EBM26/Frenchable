@@ -1,7 +1,7 @@
 angular
-.module("frenchableApp", ['ui.router']);
+.module("frenchableApp", ['ui.router']); // initiating angular and angular-ui in app
 
-angular
+angular 
 .module("frenchableApp")
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -36,7 +36,7 @@ angular
       });
 
 
-angular
+angular // angular controller for app
 .module("frenchableApp")
 .controller("frechableController", function ($scope) {
 
