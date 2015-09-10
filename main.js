@@ -15,22 +15,22 @@ angular
 
         .state('home', {
           url: '/home',
-          templateUrl: 'partial-home.html'
+          templateUrl: 'Partials/partial-home.html'
         })
 
         .state('about', {
           url: '/about',
-          templateUrl: 'partial-about.html'
+          templateUrl: 'Partials/partial-about.html'
         })
 
         .state('products', {
           url: '/products',
-          templateUrl: 'partial-products.html'
+          templateUrl: 'Partials/partial-products.html'
         })
 
         .state('cart', {
           url: '/cart',
-          templateUrl: 'partial-cart.html'
+          templateUrl: 'Partials/partial-cart.html'
         })
 
       });
