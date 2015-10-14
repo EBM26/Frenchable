@@ -1,15 +1,25 @@
 @font-face {
-font-family: 'Merkin Goo';
-font-style: normal;
-font-weight: normal;
-src: local('Merkin Goo'), url('MERKING_.woff') format('woff');
+  font-family: 'Merkin Goo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Merkin Goo'), url('MERKING_.woff') format('woff');
 }
 
 @font-face {
-font-family: 'Youthanasia Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Youthanasia Italic'), url('YOUTHANI.woff') format('woff');
+  font-family: 'Youthanasia Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Youthanasia Italic'), url('YOUTHANI.woff') format('woff');
+}
+
+body {
+ background-image: url('/images/fashion3.jpg'); 
+ background-repeat: no-repeat;
+ background-position: center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 
 .btn {
@@ -94,18 +104,18 @@ hr {
 
 .section {
   margin: 20px 0px;
-  border-top: 1px solid #FF005A;
-  border-bottom: 1px solid #FF005A;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   padding: 10px 0px;
-  color: #FF005A;
+  color: white;
 }
 
 .sampleDiv {
-  color: #FF005A;
+  color: white;
 }
 
 .productsDiv {
-  color: #FF005A;
+  color: #BDEDFF;
   margin: 3% 0%;
 }
 
@@ -137,7 +147,87 @@ hr {
 .companyPhoto {
   height: 300px;
   margin: 20px 120px 20px 10px;
-  border: 6px outset #FF005A;
+  border: 6px outset white;
   border-radius: 8%; 
 }
+
+.about-font {
+  color: white;
+}
+
+.cart-image {
+  height: 150px;
+  border-radius: 20%;
+}
+
+.cart-example {
+
+  margin-top: 4%;
+  background-color: white;
+  min-height: 500px;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+#cart {
+  border-bottom: 1px solid rgba(7, 6, 8, 0.2);
+  padding-bottom: 1%;
+}
+
+.cart-name {
+  padding-top: 4%;
+  font-size: 30px;
+  font-family: 'Youthanasia Italic';
+  color: #FF005A;
+
+}
+
+.cart-price {
+  padding-top: 60px;
+  font-size: 22px;
+  font-family: 'Youthanasia Italic';
+}
+
+.cart-quantity {
+  width: 25px;
+  padding-left: 7px;
+  margin-top: 60px;
+  color: black;
+}
+
+.x-symbol {
+  padding-top: 65px;
+}
+
+.first-example {
+  padding-bottom: 40px;
+  padding-top: 1%;
+
+}
+
+.second-example {
+  padding-bottom: 80px;
+}
+
+.total {
+  border-top: 1px solid rgba(7, 6, 8, 0.2);
+  padding-right: 5%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid rgba(7, 6, 8, 0.2);
+  font-family: 'Youthanasia Italic';
+  
+}
+
+.checkout {
+  padding-top: 2%;
+  padding-right: 3%;
+}
+
+.paypal {
+  height: 60px;
+}
+
+
+
+
 
